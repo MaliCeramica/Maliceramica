@@ -19,14 +19,14 @@ main {
 
 button {
   padding: 0.5rem 1rem;
-  background-color: #F08080;
+  background-color: none;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #F08080;
+  background-color: none;
 }
 
 footer {
