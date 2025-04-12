@@ -3,12 +3,12 @@ body {
   margin: 0;
   padding: 0;
   background-color: #F08080;
-  color: #E9967A;
+  color: #333;
 }
 
 header {
-  background-color: #F08080;
-  color: ##E9967A;
+  background-color: ##FA8072;
+  color: white;
   padding: 2rem;
   text-align: center;
 }
@@ -19,14 +19,14 @@ main {
 
 button {
   padding: 0.5rem 1rem;
-  background-color: none;
+  background-color: #FFA07A;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: none;
+  background-color: #E9967A;
 }
 
 footer {
