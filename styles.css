@@ -1,0 +1,137 @@
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #000;
+}
+.beneficios {
+  color: black;
+  background-color: #fff0f5;
+  text-align: center;
+  padding: 2rem;
+  color: #000;
+}
+.beneficios h2 {
+  color: black;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.beneficios ul {
+  list-style: none;
+  padding: 0;
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+.testimonios {
+  color: black;
+  background-color: #fff;
+  padding: 2rem;
+  text-align: center;
+  color: #000;
+}
+.testimonios h2 {
+  color: black;
+  color: #000;
+  margin-bottom: 1rem;
+}
+.testimonio {
+  max-width: 600px;
+  margin: 1rem auto;
+  font-style: italic;
+  color: #000;
+}
+.testimonio span {
+  color: black;
+  display: block;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  color: #555;
+}
+
+@media (max-width: 600px) {
+  .menu-horizontal {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .menu-horizontal ul {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .menu-horizontal li {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.menu-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 1rem;
+  background-color: #fafafa;
+  border-bottom: 1px solid #eee;
+}
+
+.menu-horizontal ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+}
+
+.menu-horizontal li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .menu-horizontal ul {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menu-horizontal {
+    flex-direction: column;
+  }
+}
+
+.menu-toggle {
+  display: none;
+  background-color: transparent;
+  border: none;
+  font-size: 2rem;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .menu-toggle {
+    display: block;
+  }
+  .menu-horizontal {
+    display: none;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .menu-horizontal.activo {
+    display: flex;
+  }
+  .menu-horizontal ul {
+    flex-direction: column;
+    width: 100%;
+  }
+  .menu-horizontal li {
+    text-align: center;
+  }
+}
