@@ -1,1 +1,0 @@
-// JavaScript futuro para Mali Cerámica
